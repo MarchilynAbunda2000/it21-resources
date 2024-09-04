@@ -4,9 +4,12 @@ class Animal {
     this.#name = name;
   }
 
+  // Setter method
   setName(val) {
     this.#name = val;
   }
+
+  // Getter Method
   getName() {
     return this.#name;
   }
@@ -15,5 +18,9 @@ class Animal {
 var animal = new Animal("DOG");
 animal.setName("CAT");
 console.log(animal.getName());
+
+
+
+
 
 // console.log(animal.name);
