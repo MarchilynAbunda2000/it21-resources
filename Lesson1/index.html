@@ -13,19 +13,27 @@
 
 
     <script>
-       //Input
-        const person1 ={
-            name:"Marchilyn Abunda",
-            age:24,
-            occupation:"Instructor"
-        }
+       // Class definition
+class Person {
+    constructor(name, age, occupation) {
+        this.name = name;
+        this.age = age;
+        this.occupation = occupation;
+    }
 
-        //Process and Output
+    // Method to display person details
+    displayInfo() {
+        console.log("Name: " + this.name);
+        console.log("Age: " + this.age);
+        console.log("Occupation: " + this.occupation);
+    }
+}
 
-        //Solution 1: Display via console.log
-        console.log("Name: " + person1.name);
-        console.log("Age: "  +person1.age);
-        console.log("Occupation: " + person1.occupation);
+// Creating an object (instance) of the Person class
+var person1 = new Person("Marchilyn Abunda", 25, "Instructor");
+
+// Process and Output
+person1.displayInfo();
 
         //Solution 2: Display via HTML
         document.getElementById("person1-name").innerHTML = "Name: " + person1.name;

@@ -6,5 +6,5 @@ class Animal{
 
 
 // Let's create Object from the class Animal
-var animal = new Animal("Dog");
+var animal = new Animal("Cat");
 console.log(animal);

@@ -13,7 +13,7 @@ class Employee {
     return this.#name;
   }
   getSalary() {
-    let bonus = 1000;
+    let bonus = 2000;
     return this.#baseSalary + bonus;
   }
 }

@@ -11,7 +11,9 @@ class Animal {
     return this.#name;
   }
 }
+
 var animal = new Animal("DOG");
 animal.setName("CAT");
 console.log(animal.getName());
-console.log(animal.name);
+
+// console.log(animal.name);
