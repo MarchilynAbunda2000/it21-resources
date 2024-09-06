@@ -29,3 +29,19 @@ var car2 = new Car("Red", "Toyota", 2023);
 
 // car1.start();
  car2.stop();
+
+
+
+
+ class Animal{
+    constructor(name){
+        this.name = name;
+    }
+}
+
+
+// Let's create Object from the class Animal
+var animal = new Animal("Cat");
+console.log(animal);
+
+// console.log(typeof animal);
